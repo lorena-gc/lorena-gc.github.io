@@ -46,6 +46,7 @@ body{
 
 .carousel-caption{
 	top: 40%;
+	text-shadow: #000 2px 3px 2px;
 }
 
 .img-slider{
@@ -69,12 +70,18 @@ body{
   .only-mobile{
   visibility:hidden;
   }
+  .only-desktop{
+  visibility:visible;
+  }
 }
 
 @media screen and (max-width : 506px){
  
  .only-mobile{
   visibility:visible;
+  }
+  .only-desktop{
+  visibility:hidden;
   }
 }
 
